@@ -1,0 +1,17 @@
+{
+  "name": "nasdaq-data-scrapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape Data from nasdaq stock website",
+  "main": "options-trading.js",
+  "scripts": {
+    "start": "node options-trading.js NFLX"
+  },
+  "author": "Ashutosh Kumar Jha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^3.3.0",
+    "request": "^2.88.2"
+  }
+}
